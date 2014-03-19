@@ -31,7 +31,7 @@ function useItem (x,y,z,itemId,blockId,side)
   Level.destroyBlock (x+1,y+16,z)
   Level.destroyBlock (x,y+16,z-1)
   Level.destroyBlock (x,y+16,z+1)
-  Level.destroyBlock (x.y+17,z)
+  Level.destroyBlock (x,y+17,z)
   }
 }  
 
